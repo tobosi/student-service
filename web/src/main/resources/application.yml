@@ -114,7 +114,7 @@ spring:
       on-profile: docker
 
   datasource:
-    url: jdbc:mysql://mysqldb/student-manager
+    url: jdbc:mysql://localhost:3306/student-manager
     username: root
     password:
     h2:
